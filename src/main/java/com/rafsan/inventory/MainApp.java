@@ -1,7 +1,6 @@
 package com.rafsan.inventory;
 
 import javafx.application.Application;
-import static javafx.application.Application.launch;
 import javafx.application.Platform;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -11,7 +10,7 @@ import javafx.scene.image.Image;
 import javafx.scene.input.MouseEvent;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
-//just for testing
+
 public class MainApp extends Application {
 
     private double xOffset = 0;

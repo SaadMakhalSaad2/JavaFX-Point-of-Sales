@@ -89,11 +89,11 @@ public class LoginController implements Initializable {
                     }
                 } else {
                     passwordField.setText("");
-                    errorLabel.setText("Wrong Password!");
+                    errorLabel.setText("كلمة مرور غير صحيحة");
                 }
             } else {
                 resetFields();
-                errorLabel.setText("User doesn't exist!");
+                errorLabel.setText("هذا المستخدم غير مسجل بالنظام");
             }
         }
     }
@@ -135,7 +135,7 @@ public class LoginController implements Initializable {
         String errorMessage = "";
 
         if (usernameField.getText() == null || passwordField.getText().length() == 0) {
-            errorMessage += "Please enter credentials!\n";
+            errorMessage += "من فضلك ادخل بيانات المستخدم\n";
         }
 
         if (errorMessage.length() == 0) {
