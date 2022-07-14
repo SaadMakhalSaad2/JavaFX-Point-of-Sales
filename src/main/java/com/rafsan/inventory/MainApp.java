@@ -11,7 +11,7 @@ import javafx.scene.image.Image;
 import javafx.scene.input.MouseEvent;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
-
+//just for testing
 public class MainApp extends Application {
 
     private double xOffset = 0;
