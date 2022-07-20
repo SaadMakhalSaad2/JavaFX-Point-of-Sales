@@ -34,7 +34,7 @@
             </Label>
             <ImageView fitHeight="240.0" fitWidth="222.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../images/unnamed.png" />
+                  <Image url="@../images/logo.png" />
                </image>
                <VBox.margin>
                   <Insets bottom="40.0" />
